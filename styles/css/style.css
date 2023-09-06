@@ -740,7 +740,7 @@ body {
   }
   .blog__container {
     width: 470px;
-    height: 555px;
+    height: 485px;
     padding: 18px 34px 0 18px;
   }
   .blog__viewport {
@@ -761,8 +761,8 @@ body {
     line-height: 26px;
   }
   .scrollbar {
-    height: 353px;
-    top: 96px;
+    height: 343px;
+    top: 76px;
     background-color: rgba(255, 255, 255, 0.12);
   }
 }
@@ -820,7 +820,7 @@ body {
   }
   .blog__container {
     width: 370px;
-    height: 420px;
+    height: 340px;
     padding: 14px 28px 0 14px;
     border-radius: 80px;
   }
@@ -849,8 +849,8 @@ body {
     font-size: 12px;
   }
   .scrollbar {
-    height: 270px;
-    top: 70px;
+    height: 230px;
+    top: 50px;
   }
 }
 @media (max-width: 1280px) and (min-width: 960px) {
