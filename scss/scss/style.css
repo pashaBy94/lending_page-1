@@ -101,6 +101,25 @@ body {
   height: 16px;
 }
 
+.language__text input {
+  display: none;
+}
+
+.res_lang {
+  top: 10px;
+  left: 32px;
+}
+
+.rus,
+.eng {
+  display: none;
+}
+
+.en:checked ~ .res_lang > .eng,
+.ru:checked ~ .res_lang > .rus {
+  display: block;
+}
+
 .show_lang {
   display: none;
   flex-direction: column;
