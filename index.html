@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles/normolize.css"> -->
+    <link rel="stylesheet" href="scss/scss/style.css">
+    <title>Document</title>
+    <style>
+        .language__text input {
+            display: none;
+        }
+        .res_lang{
+            top: 10px;
+            left: 32px;
+        }
+        .rus,
+        .eng {
+            display: none;
+        }
+        .en:checked~.res_lang>.eng,
+        .ru:checked~.res_lang>.rus {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="wrap__page">
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo"></div>
+                <input type="checkbox" class="check__button" id="check__button">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#">About us</a></li>
+                        <li class="menu__item"><a href="#">Brands</a></li>
+                        <li class="menu__item"><a href="#">Commissions</a></li>
+                        <li class="menu__item"><a href="#">News</a></li>
+                        <li class="menu__item"><a href="#">Contact us</a></li>
+                        <li class="menu__item"><a href="#">Careers</a></li>
+                    </ul>
+                </nav>
+                <div class="header__buttons">
+                    <div class="header__button-wrap">
+                        <div class="header__button language">
+                            <img class="language__img" src="img/language16.svg" alt="language">
+                            <div class="language__text">
+                                <input type="radio" checked name="lang" class="en" id="en">
+                                <input type="radio" name="lang" class="ru" id="ru">
+                                <div class="res_lang">
+                                    <span class="rus">RU</span>
+                                    <span class="eng">EN</span>
+                                    <div class="show_lang">
+                                        <label for="en"  class="select_lang">EN</label>
+                                        <label for="ru"  class="select_lang">RU</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <label class="button__toggle" for="check__button">
+                            <img class="button__toggle-open" src="img/menu.svg" alt="menu">
+                            <img class="button__toggle-close" src="img/close.svg" alt="menu">
+                        </label>
+                    </div>
+                    <button class="header__button header__button-in">LOG IN</button>
+                    <button class="header__button header__button-up">SIGN UP</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <seection class="banner">
+        <div class="container">
+            <div class="banner__inner">
+                <div class="light__left"></div>
+                <div class="light__right"></div>
+                <div class="banner__title title">
+                    <h1 class="title__name">HOUSE OF <span class="title__name-blue">GAMBLING</span></h1>
+                    <div class="title__text">Raise your ROI with direct advertiser</div>
+                    <button class="title__button">Become a Partner</button>
+                </div>
+                <div class="banner__scroll">
+                    <div class="scroll scroll-1">
+                        <div class="lenta">
+                            <img class="lenta__reverse lenta__img" src="img/line_3/Shield.svg" alt="shield">
+                            <img class="lenta__desctop lenta__img" src="img/line_1/dollar.svg" alt="dollar">
+                            <img class="lenta__mobile lenta__img" src="img/dollar-mob.svg" alt="dollar" />
+                            <img class="lenta__reverse lenta__img" src="img/line_1/Soccer.svg" alt="soccer">
+                            <img class="lenta__reverse lenta__img" src="img/line_2/M.svg" alt="m">
+                        </div>
+                        <div class="lenta">
+                            <img class="lenta__reverse lenta__img" src="img/line_3/Shield.svg" alt="shield">
+                            <img class="lenta__desctop lenta__img" src="img/line_1/dollar.svg" alt="dollar">
+                            <img class="lenta__mobile lenta__img" src="img/dollar-mob.svg" alt="dollar" />
+                            <img class="lenta__reverse lenta__img" src="img/line_1/Soccer.svg" alt="soccer">
+                            <img class="lenta__reverse lenta__img" src="img/line_2/M.svg" alt="m">
+                        </div>
+                        <div class="lenta">
+                            <img class="lenta__reverse lenta__img" src="img/line_3/Shield.svg" alt="shield">
+                            <img class="lenta__desctop lenta__img" src="img/line_1/dollar.svg" alt="dollar">
+                            <img class="lenta__mobile lenta__img" src="img/dollar-mob.svg" alt="dollar" />
+                            <img class="lenta__reverse lenta__img" src="img/line_1/Soccer.svg" alt="soccer">
+                            <img class="lenta__reverse lenta__img" src="img/line_2/M.svg" alt="m">
+                        </div>
+                    </div>
+                    <div class="scroll scroll-2">
+                        <div class="lenta">
+                            <img class="lenta__reverse lenta__img" src="img/line_2/M.svg" alt="m">
+                            <img class="lenta__reverse lenta__img" src="img/line_2/Timer.svg" alt="timer">
+                            <img class="lenta__reverse lenta__img" src="img/line_2/Crown.svg" alt="crown">
+                            <img class="lenta__desctop lenta__img" src="img/line_2/World.svg" alt="world">
+                            <img class="lenta__mobile lenta__img" src="img/World-mob.svg" alt="world" />
+                        </div>
+                        <div class="lenta">
+                            <img class="lenta__reverse lenta__img" src="img/line_2/M.svg" alt="m">
+                            <img class="lenta__reverse lenta__img" src="img/line_2/Timer.svg" alt="timer">
+                            <img class="lenta__reverse lenta__img" src="img/line_2/Crown.svg" alt="crown">
+                            <img class="lenta__desctop lenta__img" src="img/line_2/World.svg" alt="world">
+                            <img class="lenta__mobile lenta__img" src="img/World-mob.svg" alt="world" />
+                        </div>
+                        <div class="lenta">
+                            <img class="lenta__reverse lenta__img" src="img/line_2/M.svg" alt="m">
+                            <img class="lenta__reverse lenta__img" src="img/line_2/Timer.svg" alt="timer">
+                            <img class="lenta__reverse lenta__img" src="img/line_2/Crown.svg" alt="crown">
+                            <img class="lenta__desctop lenta__img" src="img/line_2/World.svg" alt="world">
+                            <img class="lenta__mobile lenta__img" src="img/World-mob.svg" alt="world" />
+                        </div>
+                    </div>
+                    <div class="scroll scroll-3">
+                        <div class="lenta">
+                            <img class="lenta__desctop lenta__img" src="img/line_2/World.svg" alt="world">
+                            <img class="lenta__mobile lenta__img" src="img/World-mob.svg" alt="world" />
+                            <img class="lenta__reverse lenta__img" src="img/line_3/M.svg" alt="m">
+                            <img class="lenta__reverse lenta__img" src="img/line_3/Shield.svg" alt="shield">
+                            <img class="lenta__reverse lenta__img" src="img/line_1/Soccer.svg" alt="soccer">
+                            <img class="lenta__reverse lenta__img" src="img/line_3/Shield.svg" alt="shield">
+                            <img class="lenta__reverse lenta__img" src="img/line_2/Crown.svg" alt="crown">
+                        </div>
+                        <div class="lenta">
+                            <img class="lenta__desctop lenta__img" src="img/line_2/World.svg" alt="world">
+                            <img class="lenta__mobile lenta__img" src="img/World-mob.svg" alt="world" />
+                            <img class="lenta__reverse lenta__img" src="img/line_3/M.svg" alt="m">
+                            <img class="lenta__reverse lenta__img" src="img/line_3/Shield.svg" alt="shield">
+                            <img class="lenta__reverse lenta__img" src="img/line_1/Soccer.svg" alt="soccer">
+                            <img class="lenta__reverse lenta__img" src="img/line_3/Shield.svg" alt="shield">
+                            <img class="lenta__reverse lenta__img" src="img/line_2/Crown.svg" alt="crown">
+                        </div>
+                        <div class="lenta">
+                            <img class="lenta__desctop lenta__img" src="img/line_2/World.svg" alt="world">
+                            <img class="lenta__mobile lenta__img" src="img/World-mob.svg" alt="world" />
+                            <img class="lenta__reverse lenta__img" src="img/line_3/M.svg" alt="m">
+                            <img class="lenta__reverse lenta__img" src="img/line_3/Shield.svg" alt="shield">
+                            <img class="lenta__reverse lenta__img" src="img/line_1/Soccer.svg" alt="soccer">
+                            <img class="lenta__reverse lenta__img" src="img/line_3/Shield.svg" alt="shield">
+                            <img class="lenta__reverse lenta__img" src="img/line_2/Crown.svg" alt="crown">
+                        </div> 
+                    </div>
+                </div>
+                <div class="banner__blog ">
+                    <div class="blog">
+                        <h2 class="blog__title">
+                            BLOG
+                        </h2>
+                        <div class="blog__container"> <!-- container -->
+                            <div class="blog__viewport"> <!-- viewport -->
+                                <div class="scrollbar">
+                                    <div class="scroller"></div>
+                                </div>
+                            <div class="blog__content-box"> <!-- contentBox -->
+                                    <ul class="blog__list">
+                                        <li class="blog__item item">
+                                            <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%BB%D0%BE%D0%B3" target="_blank">
+                                                <div class="item__text">Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                                                </div>
+                                                <div class="item__date">02.02.2023</div>
+                                            </a>
+                                        </li>
+                                        <li class="blog__item item">
+                                            <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%BB%D0%BE%D0%B3" target="_blank">
+                                                <div class="item__text">Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                                                </div>
+                                                <div class="item__date">02.02.2023</div>
+                                            </a>
+                                        </li>                                        <li class="blog__item item">
+                                            <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%BB%D0%BE%D0%B3" target="_blank">
+                                                <div class="item__text">Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                                                </div>
+                                                <div class="item__date">02.02.2023</div>
+                                            </a>
+                                        </li>                                        <li class="blog__item item">
+                                            <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%BB%D0%BE%D0%B3" target="_blank">
+                                                <div class="item__text">Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                                                </div>
+                                                <div class="item__date">02.02.2023</div>
+                                            </a>
+                                        </li>                                        <li class="blog__item item">
+                                            <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%BB%D0%BE%D0%B3" target="_blank">
+                                                <div class="item__text">Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                                                </div>
+                                                <div class="item__date">02.02.2023</div>
+                                            </a>
+                                        </li>                                        <li class="blog__item item">
+                                            <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%BB%D0%BE%D0%B3" target="_blank">
+                                                <div class="item__text">Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                                                </div>
+                                                <div class="item__date">02.02.2023</div>
+                                            </a>
+                                        </li>                                        <li class="blog__item item">
+                                            <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%BB%D0%BE%D0%B3" target="_blank">
+                                                <div class="item__text">Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                                                </div>
+                                                <div class="item__date">02.02.2023</div>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="blog__context">
+                            <ul class="blog__list">
+                                <li class="blog__item item">
+                                    <div class="item__text">Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                                    </div>
+                                    <div class="item__date">02.02.2023</div>
+                                </li>
+                                <li class="blog__item item">
+                                    <div class="item__text">Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                                    </div>
+                                    <div class="item__date">02.02.2023</div>
+                                </li>
+                                <li class="blog__item" item>
+                                    <div class="item__text">Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                                    </div>
+                                    <div class="item__date">02.02.2023</div>
+                                </li>
+                                <li class="blog__item item">
+                                    <div class="item__text">Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                                    </div>
+                                    <div class="item__date">02.02.2023</div>
+                                </li>
+                                <li class="blog__item item">
+                                    <div class="item__text">Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                                    </div>
+                                    <div class="item__date">02.02.2023</div>
+                                </li>
+                                <li class="blog__item item">
+                                    <div class="item__text">Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                                    </div>
+                                    <div class="item__date">02.02.2023</div>
+                                </li>
+                                <li class="blog__item item">
+                                    <div class="item__text">Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                                    </div>
+                                    <div class="item__date">02.02.2023</div>
+                                </li>
+                            </ul>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </seection>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__navigate">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a class="footer__link" href="#">Terms & Conditions</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Cookies</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Contacts</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Careers</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Brand Guide</a></li>
+                    </ul>
+                </div>
+                <div class="footer__social social">
+                    <div class="social__title">Our social media:</div>
+                    <ul class="social__list">
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <img class="social__vector" src="img/BG Vector.svg" />
+                                <img class="social__icon" src="img/social/Facebook.svg" />
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <img class="social__vector" src="img/BG Vector.svg" />
+                                <img class="social__icon" src="img/social/Instagram.svg" />
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <img class="social__vector" src="img/BG Vector.svg" />
+                                <img class="social__icon" src="img/social/LinkedIn.svg" />
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <img class="social__vector" src="img/BG Vector.svg" />
+                                <img class="social__icon" src="img/social/Telegram.svg" />
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <img class="social__vector" src="img/BG Vector.svg" />
+                                <img class="social__icon" src="img/social/TikTok.svg" />
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <img class="social__vector" src="img/BG Vector.svg" />
+                                <img class="social__icon" src="img/social/Twitter.svg" />
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <img class="social__vector" src="img/BG Vector.svg" />
+                                <img class="social__icon" src="img/social/VK.svg" />
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <img class="social__vector" src="img/BG Vector.svg" />
+                                <img class="social__icon" src="img/social/YouTube.svg" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
