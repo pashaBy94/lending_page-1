@@ -2,6 +2,7 @@
     font-family: 'Lexend-Regular';
     font-style: normal;
     font-weight: 400;
+    font-display: auto;
     src: url('../../fonts/Lexend-Regular.woff2') format('woff2'),
     url('../../fonts/Lexend-Regular.woff') format('woff');
 }
@@ -9,6 +10,7 @@
     font-family: 'Lexend-Medium';
     font-style: normal;
     font-weight: 500;
+    font-display: swap;
     src: url('../../fonts/Lexend-Medium.woff2') format('woff2'),
     url('../../fonts/Lexend-Medium.woff') format('woff');
 }
@@ -16,6 +18,7 @@
     font-family: 'Lexend-SemiBold';
     font-style: normal;
     font-weight: 600;
+    font-display: swap;
     src: url('../../fonts/Lexend-SemiBold.woff2') format('woff2'),
     url('../../fonts/Lexend-SemiBold.woff') format('woff');
 }
