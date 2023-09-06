@@ -3,7 +3,8 @@
   font-family: "Lexend-Regular";
   font-style: normal;
   font-display: auto;
-  font-weight: 400;
+  font-weight:swap;
+  
   src: url("../../fonts/Lexend-Regular.woff2") format("woff2"), url("../../fonts/Lexend-Regular.woff") format("woff");
 }
 @font-face {
