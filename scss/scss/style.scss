@@ -4,6 +4,8 @@
 
 .wrap__page {
     overflow: hidden;
+    display: grid;
+    grid-template-rows: 120px auto 135px;
 }
 
 * {
@@ -25,7 +27,9 @@ button {
     border: none;
 
 }
-
+html, body{
+    height: 100%;
+}
 body {
     font-family: 'Lexend-Regular', sans-serif;
     color: white;
@@ -547,7 +551,7 @@ body {
 .light__left {
     position: absolute;
     z-index: -1;
-    top: 0;
+    top: -50px;
     left: 0;
     width: 226.458px;
     height: 1302.469px;
@@ -561,7 +565,7 @@ body {
     position: absolute;
     z-index: -1;
     bottom: 0;
-    right: -160px;
+    right: 0;
     width: 574px;
     height: 574px;
     border-radius: 574px;
@@ -604,7 +608,8 @@ body {
 .scroll {
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 285px);//255
+    height: calc(100vh - 240px);
+    // height: 100%;
     gap: 24px;
     overflow: hidden;
 }
