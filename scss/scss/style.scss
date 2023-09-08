@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap');
 
 .wrap__page {
-    overflow: hidden;
+    // overflow: hidden;
     display: grid;
     grid-template-rows: 120px auto 135px;
 }
@@ -17,6 +17,9 @@
 
 }
 @media (max-width: 1280px) and (min-width: 960px) {
+    .wrap__page {
+        grid-template-rows: 80px auto 88px;
+    }
 
 }
 
@@ -54,12 +57,8 @@ button {
 }
 html, body{
     width: 100%;
-    // overflow-x: hidden;
 }
-html, body{
-    // height: 100%;
-    // overflow: hidden;
-}
+
 body {
     font-family: 'Lexend-Regular', sans-serif;
     color: white;
@@ -1171,18 +1170,29 @@ body {
 }
 @media (max-width: 1280px) and (min-width: 960px) {
     .light__left {
+        position: absolute;
+        z-index: -1;
         top: 0;
         left: 40px;
         width: 150.458px;
-        height: 802.469px;
-
+        height: 502.469px;
+        transform: rotate(-64.311deg);
+        background: linear-gradient(180deg, #478BF9 0%, rgba(71, 139, 249, 0.40) 100%);
+        opacity: 0.55;
+        filter: blur(150px);
     }
     
     .light__right {
+        position: absolute;
+        z-index: -1;
         bottom: 0;
-        right: -70px;
-        width: 444px;
-        height: 444px;
+        right: 0;
+        width: 244px;
+        height: 244px;
+        border-radius: 574px;
+        opacity: 0.7;
+        background: linear-gradient(256deg, #478BF9 0%, #9DADF2 100%);
+        filter: blur(325px);
     }
     .title {
         &__name {
@@ -1219,7 +1229,7 @@ body {
     }
 
     .scroll {
-        height: calc(100vh - 200px);
+        height: calc(100vh - 168px);
         gap: 16px;
     }
 
