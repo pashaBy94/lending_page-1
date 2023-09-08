@@ -14,6 +14,8 @@ class ScrollBox {
     init() {
         this.viewportHeight = this.viewport.offsetHeight;
         this.contentHeight = this.contentBox.scrollHeight;
+        console.log('viewportheight', this.viewportHeight);
+        console.log('contentheight', this.contentHeight);
         if (this.viewportHeight >= this.contentHeight) return;
         this.createScrollbar();
         this.registerEventsHandler();
@@ -22,6 +24,7 @@ class ScrollBox {
         this.scrollerHeight = this.heightBar/(this.contentHeight/this.viewportHeight);
         this.scrollerHeight = this.scrollerHeight > ScrollBox.#SCROLLER_HEIGHT_MIN? this.scrollerHeight:ScrollBox.#SCROLLER_HEIGHT_MIN; 
         this.scroller.style.height = this.scrollerHeight + 'px';
+        console.log('scrollerheight', this.scrollerHeight);
         this.k = (this.contentHeight-this.viewportHeight)/(this.heightBar-this.scrollerHeight);
 
     }
