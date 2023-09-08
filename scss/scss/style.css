@@ -644,7 +644,7 @@ body {
   top: -50px;
   left: 0;
   width: 226.458px;
-  height: 1302.469px;
+  height: 1202.469px;
   transform: rotate(-54.311deg);
   background: linear-gradient(180deg, #478BF9 0%, rgba(71, 139, 249, 0.4) 100%);
   opacity: 0.55;
@@ -844,16 +844,28 @@ body {
 
 @media (max-width: 1920px) and (min-width: 1640px) {
   .light__left {
-    top: 0;
+    position: absolute;
+    z-index: -1;
+    top: -50px;
     left: 0;
-    width: 216.458px;
+    width: 226.458px;
     height: 1002.469px;
+    transform: rotate(-59.311deg);
+    background: linear-gradient(180deg, #478BF9 0%, rgba(71, 139, 249, 0.4) 100%);
+    opacity: 0.55;
+    filter: blur(150px);
   }
   .light__right {
+    position: absolute;
+    z-index: -1;
     bottom: 0;
-    right: -140px;
+    right: 0;
     width: 504px;
     height: 504px;
+    border-radius: 574px;
+    opacity: 0.7;
+    background: linear-gradient(256deg, #478BF9 0%, #9DADF2 100%);
+    filter: blur(325px);
   }
   .title__name {
     font-size: 86px;
@@ -920,16 +932,28 @@ body {
 }
 @media (max-width: 1640px) and (min-width: 1280px) {
   .light__left {
-    top: 0;
+    position: absolute;
+    z-index: -1;
+    top: -50px;
     left: 0;
-    width: 200.458px;
+    width: 226.458px;
     height: 902.469px;
+    transform: rotate(-64.311deg);
+    background: linear-gradient(180deg, #478BF9 0%, rgba(71, 139, 249, 0.4) 100%);
+    opacity: 0.55;
+    filter: blur(150px);
   }
   .light__right {
+    position: absolute;
+    z-index: -1;
     bottom: 0;
-    right: -130px;
-    width: 484px;
-    height: 484px;
+    right: 0;
+    width: 474px;
+    height: 474px;
+    border-radius: 574px;
+    opacity: 0.7;
+    background: linear-gradient(256deg, #478BF9 0%, #9DADF2 100%);
+    filter: blur(325px);
   }
   .title__name {
     font-size: 66px;
