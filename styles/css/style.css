@@ -824,6 +824,7 @@ body {
   position: absolute;
   top: 0;
   border-radius: 10px;
+  will-change: transform;
 }
 
 .scrollbar {
