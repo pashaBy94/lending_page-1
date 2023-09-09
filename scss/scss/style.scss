@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap');
 
 .wrap__page {
-    // overflow: hidden;
     display: grid;
     grid-template-rows: 120px auto 135px;
 }
@@ -1398,7 +1397,7 @@ body {
         }
 
         100% {
-            transform: translateX(-100%);
+            transform: translateX(-104%);
         }
     }
 
